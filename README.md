@@ -1,4 +1,4 @@
-<img width="1919" height="1125" alt="Screenshot 2026-03-10 171802" src="https://github.com/user-attachments/assets/a8c94f6d-e623-48e4-b6dd-cc9088ac0d3d" /># Tugas CRUD KTP - Spring Boot
+# Tugas CRUD KTP - Spring Boot
 
 Nama : Syihwa Moza Alika YP Kastella  
 NIM : 20230140111
