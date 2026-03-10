@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>CRUD KTP</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+
+        body{
+        font-family: Arial;
+        margin:40px;
+        }
+
+        input,select{
+        padding:8px;
+        margin:5px;
+        }
+
+        button{
+        padding:6px 12px;
+        cursor:pointer;
+        }
+
+        table{
+        margin-top:20px;
+        border-collapse: collapse;
+        }
+
+        th,td{
+        border:1px solid black;
+        padding:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h2>Form Data KTP</h2>
+
+<input type="hidden" id="id">
+
+<input type="text" id="nomorKtp" placeholder="Nomor KTP">
+
+<input type="text" id="namaLengkap" placeholder="Nama Lengkap">
+
+<input type="text" id="alamat" placeholder="Alamat">
+
+<input type="date" id="tanggalLahir">
+
+<select id="jenisKelamin">
+    <option value="">Pilih Jenis Kelamin</option>
+    <option value="Laki-laki">Laki-laki</option>
+    <option value="Perempuan">Perempuan</option>
+</select>
+
+<br><br>
+
+<button onclick="tambahData()">Tambah</button>
+<button onclick="updateData()">Update</button>
+
+<hr>
+
+<h2>Data KTP</h2>
+
+<table>
+
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>KTP</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>Tanggal</th>
+        <th>JK</th>
+        <th>Aksi</th>
+    </tr>
+    </thead>
+
+    <tbody id="dataKtp">
+
+    </tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
